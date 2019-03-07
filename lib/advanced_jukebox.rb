@@ -38,7 +38,6 @@ def play(my_songs)
     puts "Now playing #{song_to_play}"
     system 'open <jukebox-cli-dumbo-web-career-031119/audio/Emerald-Park>'
   end
-end 
 end
 
 def exit_jukebox
