@@ -48,10 +48,10 @@ def run(songs)
     input = gets.chomp
     case input
     when 'list'
-      list(songs)
+      list(array)
     when 'play'
-      list(songs)
-      play(songs)
+      list(array)
+      play(array)
     when 'help'
       help
     when 'exit'
