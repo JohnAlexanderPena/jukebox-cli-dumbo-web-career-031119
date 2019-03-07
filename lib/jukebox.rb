@@ -30,7 +30,6 @@ def play(array)
   puts "Please enter a song name or number:"
   input = gets.chomp 
   if input == list(array).include?(input)
-    binding.pry
     puts "Playing <#{input}>"
   else 
     puts "Invalid input, please try again."
