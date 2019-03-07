@@ -45,13 +45,12 @@ def run(songs)
   input = ""
   while input
     puts "Please enter a command:"
-    input = gets.downcase.strip
+    input = gets.chomp
     case input
     when 'list'
-      list(songs)
+      list
     when 'play'
-      list(songs)
-      play(songs)
+      play
     when 'help'
       help
     when 'exit'
