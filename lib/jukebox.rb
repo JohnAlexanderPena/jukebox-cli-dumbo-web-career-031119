@@ -20,16 +20,16 @@ def help
   puts "- exit : exits this program"
 end 
 
-def list(array)
-  array.each.with_index(1) do |element, index|
+def list(songs)
+  songs.each.with_index(1) do |element, index|
     puts "#{index}. #{element}"
   end 
 end 
 
-def play(array)
+def play(songs)
   puts "Please enter a song name or number:"
   input = gets.chomp 
-  if input == list(array).include?(input)
+  if input == list(songs).include?(input)
     puts "Playing <#{input}>"
   else 
     puts "Invalid input, please try again."
@@ -48,10 +48,10 @@ def run(songs)
     input = gets.chomp
     case input
     when 'list'
-      list(array)
+      list(songs)
     when 'play'
-      list(array)
-      play(array)
+      list(songs)
+      play(songs)
     when 'help'
       help
     when 'exit'
