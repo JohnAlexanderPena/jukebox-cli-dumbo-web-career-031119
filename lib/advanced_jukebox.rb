@@ -3,13 +3,13 @@
 #with the correct path to this directory on your computer
 
 # my_songs = {
-# "Go Go GO" => '< path to this directory >/jukebox-cli/audio/Emerald-Park/01.mp3',
-# "LiberTeens" => '< path to this directory >/jukebox-cli/audio/Emerald-Park/02.mp3',
-# "Hamburg" =>  '< path to this directory >/jukebox-cli/audio/Emerald-Park/03.mp3',
-# "Guiding Light" => '< path to this directory >/jukebox-cli/audio/Emerald-Park/04.mp3',
-# "Wolf" => '< path to this directory >/jukebox-cli/audio/Emerald-Park/05.mp3',
-# "Blue" => '< path to this directory >/jukebox-cli/audio/Emerald-Park/06.mp3',
-# "Graduation Failed" => '< path to this directory >/jukebox-cli/audio/Emerald-Park/07.mp3'
+# "Go Go GO" => '< path to this directory >/home/JohnAP/jukebox-cli-dumbo-web-career-031119/jukebox-cli/audio/Emerald-Park/01.mp3',
+# "LiberTeens" => '< path to this directory >/home/JohnAP/jukebox-cli-dumbo-web-career-031119/jukebox-cli/audio/Emerald-Park/02.mp3',
+# "Hamburg" =>  '< path to this directory >home/JohnAP/jukebox-cli-dumbo-web-career-031119/jukebox-cli/audio/Emerald-Park/03.mp3',
+# "Guiding Light" => '< path to this directory >home/JohnAP/jukebox-cli-dumbo-web-career-031119/jukebox-cli/audio/Emerald-Park/04.mp3',
+# "Wolf" => '< path to this directory >home/JohnAP/jukebox-cli-dumbo-web-career-031119/jukebox-cli/audio/Emerald-Park/05.mp3',
+# "Blue" => '< path to this directory >home/JohnAP/jukebox-cli-dumbo-web-career-031119/jukebox-cli/audio/Emerald-Park/06.mp3',
+# "Graduation Failed" => '< path to this directory >home/JohnAP/jukebox-cli-dumbo-web-career-031119/jukebox-cli/audio/Emerald-Park/07.mp3'
 # }
 
 def help
