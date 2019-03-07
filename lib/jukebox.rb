@@ -42,14 +42,16 @@ end
 
 
 def run(songs)
-  input = gets.chomp
-  while input != "exit"
+  input = nil
+  while input
     puts "Please enter a command:"
+    input = gets.downcase.strip
     case input
     when 'list'
-      list
+      list(songs)
     when 'play'
-      play
+      list(songs)
+      play(songs)
     when 'help'
       help
     when 'exit'
